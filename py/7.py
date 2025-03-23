@@ -1,6 +1,6 @@
 class Mukund:
     def eat(self):
-        print("Mukund is vegetarian. eats sb pussy")
+        print("Mukund is vegetarian. eats sb ")
 
 class Study(Mukund):
     def read(self):
