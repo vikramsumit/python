@@ -9,7 +9,7 @@ def average(*numbers):
         sum = sum + i
     # print("Average is: ", sum/ len(numbers))
     return sum/ len(numbers)
-    return 99
+    # return 99
     
 c = average(54.5,22,54,409.99)
 print(c)

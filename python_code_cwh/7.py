@@ -43,28 +43,28 @@ age = 15
 gpa = 8
 extracurriculars = ["sports", "volunteering"]
 
-if age >= 18:  # Check if age is 18 or above
-    if gpa >= 3.5:  # Check if GPA is 3.5 or above
-        if "sports" in extracurriculars:  # Check if involved in sports
-            if "volunteering" in extracurriculars:  # Check if involved in volunteering
-                print("Eligible for Full Scholarship")  # All conditions met
+if age >= 18: 
+    if gpa >= 3.5: 
+        if "sports" in extracurriculars:  
+            if "volunteering" in extracurriculars:  
+                print("Eligible for Full Scholarship") 
             else:
-                print("Eligible for Partial Scholarship")  # Missing volunteering but others are met
+                print("Eligible for Partial Scholarship")  
         else:
             if "volunteering" in extracurriculars:
-                print("Eligible for Partial Scholarship")  # Missing sports but others are met
+                print("Eligible for Partial Scholarship")  
             else:
-                print("Eligible for Basic Scholarship")  # No sports or volunteering
+                print("Eligible for Basic Scholarship")  
     else:
         if gpa >= 3.0:
-            print("Eligible for Basic Scholarship")  # Lower GPA but still qualifies for basic
+            print("Eligible for Basic Scholarship") 
         else:
-            print("Not Eligible for Scholarship")  # Low GPA disqualifies
+            print("Not Eligible for Scholarship") 
 else:
     if age < 18 and gpa >= 3.5:
-        print("Eligible for Junior Scholarship")  # Younger but has good GPA
+        print("Eligible for Junior Scholarship")  
     else:
-        print("Not Eligible for Scholarship")  # Too young and doesn't meet GPA requirements
+        print("Not Eligible for Scholarship")  
 
 # conditional
 x = 10

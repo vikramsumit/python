@@ -1,6 +1,7 @@
 # matchcase statement
 
 day = input("Enter a day of the week: ").lower()  # Input day in lowercase
+# day = input("Enter a day of the week: ").upper()  # Input day in lowercase
 
 match day:
     case "monday":

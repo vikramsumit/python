@@ -4,7 +4,8 @@ a1 = 9
 b = "raju"
 d = "kaju"
 print(b)
-print(b + d)
+print(b +" "+ d)
+# print(b + a)
 print(a +a1)
 c = False
 d = None
