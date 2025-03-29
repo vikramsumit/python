@@ -1,4 +1,4 @@
-Raising Custom Error
+# Raising Custom Error
 
 a = int(input(";Enter the no btw 3 and 65: "))
 
