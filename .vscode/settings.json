@@ -1,0 +1,11 @@
+{
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.defaultFormatter": null
+}
+
+{
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "python.formatting.autopep8Path": "/home/raju/.local/bin/autopep8"
+}
