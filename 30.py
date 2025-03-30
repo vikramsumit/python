@@ -14,3 +14,10 @@ for mark in marks:
     if(index == 2):
         print("Awesome,boy")
     index += 1
+    
+index = 0
+for mark in marks:
+    print(mark)
+    if(index == 2):
+        print("Awesome,boy")
+    index += 1
