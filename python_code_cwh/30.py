@@ -8,15 +8,14 @@
 
 marks = [53,34,99,34,45,23,35,54,34,98,43,88]
 
-index = 0
-for mark in marks:
-    print(mark)
-    if(index == 2):
-        print("Awesome,boy")
-    index += 1
-    
-index = 0
-for mark in marks:
+# index = 0
+# for mark in marks:
+#     print(mark)
+#     if(index == 2):
+#         print("Awesome,boy")
+#     index += 1
+
+for index, mark in enumerate(marks, start = 2): 
     print(mark)
     if(index == 2):
         print("Awesome,boy")
