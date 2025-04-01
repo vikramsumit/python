@@ -46,7 +46,7 @@ def ask_questions(questions):
             print(f"Incorrect! The correct answer was {q['answer']}.")
     
     # Print final score
-    print(f"\nYour final score is {score} out of {len(questions)}.")
+    # print(f"\nYour final score is {score} out of {len(questions)}.")
 
 # Run the quiz
 ask_questions(questions)
