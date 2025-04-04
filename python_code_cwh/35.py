@@ -22,3 +22,17 @@ newnewl = list(filter(filter_function,newl))
 newnewl2 = list(filter(filter_function2,i))
 print(newnewl)
 print(newnewl2)
+
+from functools import reduce
+
+# List of numbers
+numbers = [1, 2, 3, 4, 5] 
+
+# Calculate the sum of the numbers using the reduce function
+def mysum(x, y):
+  return x + y
+  
+sum = reduce(mysum, numbers)
+
+# Print the sum
+print(sum)
