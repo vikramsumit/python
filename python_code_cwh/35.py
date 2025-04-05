@@ -14,6 +14,8 @@ i = [3,13,4,32,13,45,2,4]
 newl = list(map(cube,i))
 print(newl)
 
+#filter
+
 def filter_function(a):
     return a>64
 def filter_function2(a):
