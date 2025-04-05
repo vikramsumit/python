@@ -1,5 +1,6 @@
 # Map , Filter and Reduce
 
+#map
 def cube(x):
     return x *x *x
 
