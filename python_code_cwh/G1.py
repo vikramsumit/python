@@ -44,5 +44,4 @@ def play_game():
     result = matrix[player_index][computer_index]
     print_result(player_input, computer_choice, result)
 
-# Play the game
 play_game()
