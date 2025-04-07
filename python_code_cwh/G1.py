@@ -6,8 +6,8 @@ choices = ['Snake', 'Water', 'Gun']
 # Matrix to decide winner
 # Rows: Player, Columns: Computer
 #  0 = Draw, 1 = Player wins, -1 = Computer wins
-#     S   W   G
 matrix = [
+#     S   W   G
     [0, 1, -1],  # S vs S,W,G
     [-1, 0, 1],  # W vs S,W,G
     [1, -1, 0]   # G vs S,W,G
