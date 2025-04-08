@@ -16,8 +16,8 @@ sales3 = 6000
 profit3 = 2000
 ad3 = 1000
  
-RailwayForm   ---> Class [blueprint]
-harry --> harry ki info wala form --> Object [entity]
-tom --> tom ki info wala form --> Object [entity]
-shubham -- shubham ki info wala form --> Object [entity]
+# RailwayForm   ---> Class [blueprint]
+# harry --> harry ki info wala form --> Object [entity]
+# tom --> tom ki info wala form --> Object [entity]
+# shubham -- shubham ki info wala form --> Object [entity]
 # shubham.changeName("Shubhi")
