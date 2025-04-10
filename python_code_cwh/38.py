@@ -1,5 +1,10 @@
 # Constructor
 
+
+class Details:
+  def __init__(self):
+    print("animal Crab belongs to Crustaceans group")
+obj1=Details()
 class person:
     def __init__(self, n, o):
         print("Hey i am a person")
