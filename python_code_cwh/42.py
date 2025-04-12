@@ -25,10 +25,13 @@ class Subject(Student):       #inherited class
 
 obj = Student()
 obj1 = Subject()
-print(dir(obj))
+# print(dir(obj))
 
 print(obj._name)      
-print(obj._funName())     
+print(obj._funName()) 
+print(obj1._subject)    
 # calling by object of Subject class
 # print(obj1._name)    
 print(obj1._funName())
+print(dir(obj))
+print(dir(obj1))
