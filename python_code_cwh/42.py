@@ -1,15 +1,15 @@
-# # Access Modifiers in python
+# Access Modifiers in python
 
-# class Employee:
-#     def __init__(self):
-#         self.__name = "Raju bhai"
-#         self.address = "New york"
+class Employee:
+    def __init__(self):
+        self.__name = "Raju bhai"
+        self.address = "New york"
 
-# a = Employee()
-# # print(a.__name) #cannot access directly
-# print(a._Employee__name) #can be accessed indirectly
-# print(a.address)
-# print(a.__dir__())
+a = Employee()
+# print(a.__name) #cannot access directly
+print(a._Employee__name) #can be accessed indirectly
+print(a.address)
+print(a.__dir__())
 
 #protected methods
 class Student:
