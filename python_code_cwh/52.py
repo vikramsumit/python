@@ -8,6 +8,8 @@
 # # print(len(e))
 # # e()-
 
+# DUNDER METHOD
+
 from emp import Employee, StudentEvaluator
 
 e = Employee("Harry")
