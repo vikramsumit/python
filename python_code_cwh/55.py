@@ -1,3 +1,5 @@
+# CLass and its methods
+
 class Animal:
     def __init__(self, name, species):
         self.name = name
@@ -31,4 +33,3 @@ a.make_sound()
 c = Cat("Cat", "tiger species")
 c.make_sound()
 
-# Quick Quiz: Implement a Cat class by using the animal class. Add some methods specific to cat
