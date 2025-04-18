@@ -1,4 +1,5 @@
-# Example of Hybrid Inheritance 
+# Hybrid Inheritance 
+
 class BaseClass:
   pass
 
