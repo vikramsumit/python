@@ -1,5 +1,5 @@
 def my_generator():
-    for i in range(50000000):
+    for i in range(500000):
       # Complex computations
       yield i
 
