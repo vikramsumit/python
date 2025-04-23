@@ -34,7 +34,7 @@ async def main():
         function3(),
     )
   print(L)
-  # task = asyncio.create_task(function1())
+  task = asyncio.create_task(function1())
   # # await function1()
   # await function2()
   # await function3()
