@@ -25,7 +25,7 @@ async def function3():
 
 async def main():
   await function1()
-  # await function2()
+  await function2()
   # await function3()
   # return 3
   L = await asyncio.gather(
