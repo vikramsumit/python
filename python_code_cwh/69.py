@@ -24,7 +24,7 @@ async def function3():
   open("instagram3.ico", "wb").write(response.content)
 
 async def main():
-  # await function1()
+  await function1()
   # await function2()
   # await function3()
   # return 3
