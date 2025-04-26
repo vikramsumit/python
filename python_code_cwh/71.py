@@ -1,10 +1,11 @@
 # pdf from link
+
 import requests
 
 def download_pdf(url, filename):
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raises an error for bad status codes
+        response.raise_for_status()  
 
         with open(filename, 'wb') as f:
             f.write(response.content)
