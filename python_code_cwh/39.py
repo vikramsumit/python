@@ -7,14 +7,15 @@ def greet(fx):
         print("Thanks for using this function")
     return mfx
     
-@greet
+# @greet
 def hello():
     print("Hello World")
     
+# @greet    
 def add(a,b):
     print(a+b)
     
 # greet(hello)()
 
-hello()
+# hello()
 greet(add)(5,3)
