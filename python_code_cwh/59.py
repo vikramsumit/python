@@ -13,10 +13,10 @@ def usingFor():
 init = time.time()
 usingFor()
 print(time.time() - init)
-# init = time.time()
-# usingWhile()
-# print(time.time() - init)
-# print(t1)
+init = time.time()
+usingWhile()
+print(time.time() - init)
+print(t1)
 
 
 # print(4)
