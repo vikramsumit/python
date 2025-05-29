@@ -9,9 +9,9 @@
 # f.close()
 
 # WRITING A FILE
-# f = open("myfile2.txt", "w")
-# f.write("Hello Raju bhai")
-# f.close()
+f = open("myfile2.txt", "w")
+f.write("Hello Raju bhai")
+f.close()
 
-# with open("myfile2.txt", 'a') as f:
-#     f.write("Hey i am available")
+with open("myfile2.txt", 'a') as f:
+    f.write("Hey i am available")
