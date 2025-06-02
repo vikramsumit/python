@@ -13,9 +13,9 @@ class Dancer:
   def show(self):
     print(f"The dance is {self.dance}")
 
-# class DancerEmployee(Dancer, Employee):
-#   def __init__(self, dance, name):
-#     self.dance = dance
+class DancerEmployee(Dancer, Employee):
+  def __init__(self, dance, name):
+    self.dance = dance
     self.name = name
     
 class DancerEmployee1(Employee, Dancer):
