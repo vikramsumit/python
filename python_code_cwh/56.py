@@ -1,10 +1,10 @@
 # Multiple Inheritance
 
-# class Employee:
-#   def __init__(self, name):
-#     self.name = name
-#   def show(self):
-#     print(f"The name is {self.name}")
+class Employee:
+  def __init__(self, name):
+    self.name = name
+  def show(self):
+    print(f"The name is {self.name}")
 
 class Dancer:
   def __init__(self, dance):
