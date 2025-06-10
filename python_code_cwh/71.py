@@ -7,9 +7,9 @@ def download_pdf(url, filename):
         response = requests.get(url)
         response.raise_for_status()  
 
-        # with open(filename, 'wb') as f:
-        #     f.write(response.content)
-        # print(f"✅ PDF downloaded successfully as '{filename}'")
+        with open(filename, 'wb') as f:
+            f.write(response.content)
+        print(f"✅ PDF downloaded successfully as '{filename}'")
     
     except requests.exceptions.RequestException as e:
         print(f"❌ Error downloading PDF: {e}")
