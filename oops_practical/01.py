@@ -23,7 +23,7 @@ def odd_even():
     num = int(input("Enter a number: "))
     print("Even" if num % 2 == 0 else "Odd")
 
-# 4. Max and Min of 3 numbers
+# 4. Max and Min of 3 numbersprint("")
 def max_min_three():
     a, b, c = map(int, input("Enter 3 numbers: ").split())
     print("Maximum =", max(a, b, c))
