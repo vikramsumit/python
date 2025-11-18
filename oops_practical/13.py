@@ -1,3 +1,6 @@
+'''Bank Account Inheritance: Design a class hierarchy for different types of bank acounts , such as saving accounts, checking accounts and fixed diposit account. 
+Inplement common operations like deposits, withdrawls, and balance inquiries'''
+
 from datetime import datetime, timedelta
 from typing import Optional
 
