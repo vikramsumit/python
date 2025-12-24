@@ -7,7 +7,7 @@ def greet(fx):
         print("Thanks for using this function")
     return mfx
     
-# @greet
+@greet
 def hello():
     print("Hello World")
     
@@ -15,7 +15,7 @@ def hello():
 def add(a,b):
     print(a+b)
     
-# greet(hello)()
+greet(hello)()
 
 # hello()
 greet(add)(5,3)

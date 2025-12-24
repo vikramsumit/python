@@ -1,10 +1,11 @@
 # Constructor
 
-
 class Details:
   def __init__(self):
     print("animal Crab belongs to Crustaceans group")
-obj1=Details()
+
+Details()
+
 class person:
     def __init__(self, n, o):
         print("Hey i am a person")
@@ -20,3 +21,4 @@ b = person("rani", "hr")
 c = person(21,34)
 a.info()
 b.info()
+c.info()

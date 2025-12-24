@@ -4,15 +4,19 @@ class Employee:
         self.id = id
     def showdetails(self):
         print(f"The name of employee : {self.id} is {self.name}")
+    def raju(self):
+        print("im rajujuuuuuuuuuuuu")
+    
         
 class Programmer(Employee):
     def showlanguage(self):
         print("currently we are studying python")
     
 
-e = Employee("raju", 236)
-e.showdetails()
+# e = Employee("raju", 236)
+# e.showdetails()
 
 e2 = Programmer("Raja raj", 2360)
 e2.showdetails()
 e2.showlanguage()
+e2.raju()
