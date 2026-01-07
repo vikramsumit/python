@@ -16,3 +16,4 @@ radius = float(input("Enter the radius of circle: "))
 circle = Circle(radius)
 
 print(f"Area: {circle.area():.2f}")
+print(f"Circumference: {circle.circumference():.3f}")
