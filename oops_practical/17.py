@@ -11,8 +11,8 @@ class Circle:
     def circumference(self):
         return 2 * math.pi * self.radius
     
-input = print(float(input("Enter the radius of circle: ")))
+radius = float(input("Enter the radius of circle: "))
 
-circle = Circle(input)
+circle = Circle(radius)
 
 print(f"Area: {circle.area():.2f}")
