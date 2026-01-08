@@ -1,3 +1,5 @@
+# Bank Account Class: Implement a BankAccount class with attributes for an account holder's name and balance. Add methods to deposit and withdraw money from the account.
+
 class BankAccount:
     def __init__(self, name, balance=0):
         self.name = name
