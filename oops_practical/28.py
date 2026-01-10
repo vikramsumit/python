@@ -43,7 +43,7 @@ class FixedDepositAccount(BankAccount):
     def __init__(self, name, balance=0, interest_rate=0.05, term=12):
         super().__init__(name, balance)
         self.interest_rate = interest_rate
-        self.term = term  # months 
+        self.term = term 
         self.is_mature = False
 
     def withdraw(self, amount):
