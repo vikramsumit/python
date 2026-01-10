@@ -1,0 +1,1 @@
+# Online Shopping Cart: Create an online shopping cart system using inheritance. Design a base class "Product" and derived classes for various product categories (e.g., "Electronics," "Clothing," "Books"). Implement methods for adding/removing items from the cart and calculating the total price with appropriate discounts for each category.
