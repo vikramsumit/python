@@ -1,0 +1,2 @@
+# Shape Area Calculation:
+# Create a base class called "Shape" with a method calculate_area() that returns 0. Then, create derived classes for different shapes like "Circle," "Rectangle," and "Triangle." Override the calculate_area() method in each derived class to calculate and return the area of that specific shape.

@@ -1,0 +1,1 @@
+# Create an abstract class "LibraryItem" with abstract methods for common library operations like check_out(), return_item(), and due_date(). Derive concrete classes for various item types, such as "Book," "DVD," and "Magazine," and implement these methods accordingly.

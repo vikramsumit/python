@@ -1,0 +1,1 @@
+# Design a base class "Food" with a method prepare_recipe() that prints a generic message like "Follow the standard recipe steps." Create derived classes for different types of dishes, such as "Pizza," "Pasta," and "Salad." Override the prepare_recipe() method in each derived class to provide specific preparation steps for that dish. 

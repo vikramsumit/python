@@ -1,0 +1,1 @@
+# Bank Account Abstract Class:Design an abstract class "BankAccount" with abstract methods for common banking operations like deposit(), withdraw(), and get_balance(). Create concrete subclasses for various account types, such as "SavingsAccount," "CheckingAccount," and "FixedDepositAccount," and implement these methods accordingly.
