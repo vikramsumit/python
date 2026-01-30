@@ -103,5 +103,5 @@ for item in items:
     item.check_out()
     print(f'Due date for "{item.title}": {item.due_date()}')
     print()
-
+i
 items[0].return_item()
