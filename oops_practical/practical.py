@@ -2,7 +2,6 @@ class LibrarySystem:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-
     def display_info(self):
         print("Library item information")
 
@@ -10,7 +9,6 @@ class Book(LibrarySystem):
     def __init__(self, title, author, pages):
         super().__init__(title, author)
         self.pages = pages
-
     def display_info(self):
         print("Book Information:")
         print("Title:", self.title)
@@ -21,7 +19,6 @@ class Magazine(LibrarySystem):
     def __init__(self, title, author, issue_number):
         super().__init__(title, author)
         self.issue_number = issue_number
-
     def display_info(self):
         print("Magazine Information:")
         print("Title:", self.title)
